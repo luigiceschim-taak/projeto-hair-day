@@ -9,7 +9,11 @@
   "scripts": {
 
     "server": "json-server --watch server.json --port 3333",
-    "build":"webpack"
+
+    "build": "webpack",
+    "dev": "webpack serve"
+
+
 
   },
 
@@ -23,7 +27,9 @@
 
     "webpack": "^5.89.0",
 
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+
+    "webpack-dev-server": "^4.15.1"
 
   }
 
