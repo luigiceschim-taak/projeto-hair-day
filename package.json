@@ -11,9 +11,8 @@
     "server": "json-server --watch server.json --port 3333",
 
     "build": "webpack",
+
     "dev": "webpack serve"
-
-
 
   },
 
@@ -24,6 +23,8 @@
   },
 
   "devDependencies": {
+
+    "html-webpack-plugin": "^5.6.0",
 
     "webpack": "^5.89.0",
 
