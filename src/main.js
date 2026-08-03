@@ -11,3 +11,4 @@ import "./modules/form/submit.js"
 import "./modules/page-load.js"
 
 import "./modules/form/date-chance.js"
+import "./modules/form/cancel.js"

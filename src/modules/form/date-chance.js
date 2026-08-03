@@ -3,8 +3,8 @@ import { schedulesDay } from "../schedules/load"
 const selectedDate = document.getElementById("date")
 
 
-selectedDate.onchange = () =>{
+selectedDate.onchange = async () =>{
 
-    schedulesDay()
+   await schedulesDay()
 
 }
