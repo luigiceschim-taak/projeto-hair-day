@@ -30,7 +30,7 @@ form.onsubmit = async(event) => {
 
         const when = dayjs(selectedDate.value).add(hour,"hour").locale("pt-br").format()
         
-        const id = new Date().getTime()
+        const id = new Date().getTime().toString()
 
 
         await scheduleNew({id, name, when})
